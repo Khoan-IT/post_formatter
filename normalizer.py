@@ -8,7 +8,7 @@ from pyvi import ViTokenizer
 
 class V2PostNormalizer:
     def __init__(self):
-        file = open('model/short_words.json')
+        file = open('short_word/short_words.json')
         v2_short_words = json.load(file)
         self.__v2_short_words = v2_short_words
 
