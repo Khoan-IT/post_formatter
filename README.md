@@ -1,5 +1,9 @@
 # post_formatter
 ```python
+from normalizer import V2PostNormalizer
+from elastic_formatter import PostFormatter
+
+normalizer = V2PostNormalizer()
 es_formatter = PostFormatter()
 
 message = []
